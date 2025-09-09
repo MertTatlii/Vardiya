@@ -42,7 +42,7 @@ class DataManager:
             cls._instance = super().__new__(cls)
             cls._instance.temp_data = {}
             cls._instance.unsaved_changes = {}
-            cls._instance.save_path = "H:/Egebant Urfa/22-ORTAK KLASÖR/İK/Vardiya Listesi/Vardiya Programı Listeleri/"
+            cls._instance.save_path = ""
             # 1) Sheet1’ten page->isim listesi yükle
             cls._instance.source_data = cls._instance._load_source_data()
             # 2) Sheet2’den kullanıcı->accessible_pages yükle

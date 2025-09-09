@@ -83,3 +83,4 @@ while True:
     except Exception as e:
         print(f"Ana döngü hatası: {e}")
         time.sleep(60)
+
