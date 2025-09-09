@@ -1232,6 +1232,7 @@ class EditableListItem(QWidget):
         self.add_btn2.hide()
         self.add_btn3.hide()
         self.delete_btn.hide()
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     login_window = LoginWindow()
